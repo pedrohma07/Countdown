@@ -24,8 +24,8 @@
 .principal{
     display: flex;
     align-items: center;
-    justify-content: space-between;
-
+    justify-content: flex-start;
+    margin-left: 70px;
     height: 100%;
 }
 .img-rocket{
@@ -36,3 +36,52 @@
 .top img,.bottom img{
     width: 100%;
 }
+.countdown{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 450px;
+    height: 100%;
+}
+.leg{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 10px;
+ }
+ .leg p{
+    width: 15%;
+    color: var(--light-grey);
+    font-size: 14px;
+    text-align: center;
+ }
+ .bloco-count span{
+    font-size: 62px;
+    font-weight: bold;
+    color: var(--black);
+   
+ }
+ .countdown h1{
+    text-align: center;
+    color: var(--purple);
+    font-weight: bold;
+    font-size: 36px;
+ }
+ .bloco-inscrever{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+ }
+ .bloco-inscrever p{
+    font-size: 14px;
+    color: var(--text-color);
+ }
+ .bloco-inscrever button{
+    font-size: 16px;
+    color: #ffffff;
+    background-color: var(--purple);
+    border: none;
+    border-radius: 15px;
+    padding: 15px 30px;
+    margin-top: 20px;
+ }
